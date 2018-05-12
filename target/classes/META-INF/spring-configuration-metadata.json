@@ -1,0 +1,36 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "ru.emdev.fis.test.AMQPConfiguration",
+      "name": "amqp",
+      "type": "ru.emdev.fis.test.AMQPConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "ru.emdev.fis.test.AMQPConfiguration",
+      "name": "amqp.host",
+      "description": "AMQ service host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "ru.emdev.fis.test.AMQPConfiguration",
+      "name": "amqp.password",
+      "description": "AMQ password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "ru.emdev.fis.test.AMQPConfiguration",
+      "name": "amqp.port",
+      "description": "AMQ service port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "ru.emdev.fis.test.AMQPConfiguration",
+      "name": "amqp.username",
+      "description": "AMQ username",
+      "type": "java.lang.String"
+    }
+  ]
+}

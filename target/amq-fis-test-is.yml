@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: amq-fis-test
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: amq-fis-test@sha256:b128a6f7f1e750283c9a1548218901595cd411e6943625e9ad21a3927e305e08
+        namespace: test-fis
+      name: latest
